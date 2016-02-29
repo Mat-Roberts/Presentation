@@ -1,0 +1,43 @@
+DataProducts
+========================================================
+author: Mathew Roberts
+date: 
+
+Diamond Inventory
+========================================================
+
+This presentation is being created as part of the peer assessment for the coursera developing data products class. The assignment is geared toward ensuring the following concepts were well understood by the students
+
+- **shiny** to build data product application
+- **R-Presentation or slidify** to create data product related presentations
+
+My App
+========================================================
+
+To display the understanding of using shiny to build an application, a simple application called Storm Database Explorer has been developed and deployed at: https://mathewdatascience.shinyapps.io/testingshiny/
+
+The application allows the user to:
+
+- Select and order the Columns
+- Search through the data
+- Select how many rows per page
+
+
+Data
+========================================================
+
+I was able to grab the data from the following place
+
+https://vincentarelbundock.github.io/Rdatasets/doc/ggplot2/diamonds.csv
+
+This dataset containing the prices and other attributes of almost 54,000 diamonds.
+
+
+Data
+========================================================
+
+```{r}
+
+data <- read.csv('diamonds.csv')
+head(data)
+```
